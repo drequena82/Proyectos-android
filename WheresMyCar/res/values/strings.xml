@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheresMyCar</string>
+    <string name="label_item_configurar">Configure</string>
+	<string name="label_item_acerca_de">About WheresMyCar</string>
+	<string name="label_item_salir">Exit</string>
+	
+	<string name="overlay_title_mycar">My Car is here</string>
+	<string name="overlay_title_me">I\'m here</string>
+	<string name="overlay_text_mycar">My Car was parked here</string>
+	<string name="label_acerca">App developed by David Requena</string>
+	<string name="error_gps">GPS signal not found</string>
+	<string name="label_metros">meters</string>
+
+	<string name="notification_ticker">WheresMyCar starting!!</string>
+	<string name="notification_title">WheresMyCar</string>
+	<string name="notification_text">Touch to see your car position</string>
+	
+	<string name="incoming_alert_title">Wellcome to WheresMyCar</string>
+	<string name="incoming_alert_text">Select the option for mark the car position in your position</string>
+	<string name="ok_button">OK</string>
+	<string name="exit_button">Exit</string>
+	<string name="label_enabled_gps">It\'s necessary enable the GPS, Do you enabled the GPS ?</string>
+	
+	<string name="text_image">Location of my car</string>
+	<string name="label_take_photo">Do you take a picture ??</string>
+	
+	<string name="label_picture_error">The picture was not taken</string>
+</resources>

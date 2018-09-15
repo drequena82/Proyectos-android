@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_margin="5px" android:orientation="horizontal">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_margin="5px" android:orientation="vertical">
+			<TextView android:id="@+id/LblTituloTone"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="15px"
+				android:text="@string/label_option_tone" />
+			<TextView android:id="@+id/LblSubTituloTone"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="12px" android:text="@string/label_tone" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_margin="5px" android:orientation="vertical"
+			android:layout_gravity="right">
+			<Button android:gravity="right" android:id="@+id/buttonTone"
+				android:layout_width="wrap_content" android:layout_height="fill_parent"
+				android:layout_gravity="right" android:text="@string/button_message">
+			</Button>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="5px" android:layout_marginRight="5px"
+		android:orientation="vertical">
+
+		<TextView android:id="@+id/LblTituloInterval"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="15px"
+			android:text="@string/label_option_interval"
+			android:layout_marginLeft="5px" android:layout_marginRight="5px" />
+
+		<TextView android:id="@+id/LblSubTituloInterval"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="normal" android:textSize="12px" android:text="10"
+			android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" />
+		<SeekBar android:id="@+id/seekBarInterval"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" android:padding="5px" android:max="30"></SeekBar>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="5px" android:layout_marginRight="5px"
+		android:orientation="vertical">
+
+		<TextView android:id="@+id/LblTituloVolume"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="15px"
+			android:text="@string/label_option_volume"
+			android:layout_marginLeft="5px" android:layout_marginRight="5px" />
+
+		<TextView android:id="@+id/LblSubTituloVolume"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="normal" android:textSize="12px" android:text="10"
+			android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" />
+		<SeekBar android:id="@+id/seekBarVolume"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" android:padding="5px" android:max="9"></SeekBar>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_margin="5px" android:orientation="vertical">
+
+		<TextView android:id="@+id/LblTituloBattery"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="15px"
+			android:text="@string/label_option_battery_level" android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" />
+
+		<TextView android:id="@+id/LblSubTituloBattery"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textStyle="normal" android:textSize="12px" android:text="15%"
+			android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" />
+
+		<SeekBar android:id="@+id/seekBarBattery"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_margin="5px" android:layout_marginLeft="5px"
+		android:layout_marginRight="5px" android:padding="5px" android:max="100"></SeekBar>
+	</LinearLayout>
+</LinearLayout>

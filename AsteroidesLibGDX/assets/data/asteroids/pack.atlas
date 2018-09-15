@@ -1,0 +1,216 @@
+
+pack.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+asteroid-big-0000
+  rotate: false
+  xy: 2, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0001
+  rotate: false
+  xy: 2, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0002
+  rotate: false
+  xy: 84, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0003
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0004
+  rotate: false
+  xy: 84, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0005
+  rotate: false
+  xy: 166, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0006
+  rotate: false
+  xy: 84, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0007
+  rotate: false
+  xy: 166, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0008
+  rotate: false
+  xy: 248, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0009
+  rotate: false
+  xy: 166, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0010
+  rotate: false
+  xy: 248, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0011
+  rotate: false
+  xy: 330, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0012
+  rotate: false
+  xy: 248, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0013
+  rotate: false
+  xy: 330, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0014
+  rotate: false
+  xy: 412, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0015
+  rotate: false
+  xy: 330, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0016
+  rotate: false
+  xy: 412, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0017
+  rotate: false
+  xy: 494, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0018
+  rotate: false
+  xy: 412, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0019
+  rotate: false
+  xy: 494, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0020
+  rotate: false
+  xy: 576, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0021
+  rotate: false
+  xy: 494, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0022
+  rotate: false
+  xy: 576, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0023
+  rotate: false
+  xy: 658, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0024
+  rotate: false
+  xy: 576, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0025
+  rotate: false
+  xy: 658, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0026
+  rotate: false
+  xy: 740, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0027
+  rotate: false
+  xy: 658, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0028
+  rotate: false
+  xy: 740, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+asteroid-big-0029
+  rotate: false
+  xy: 822, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

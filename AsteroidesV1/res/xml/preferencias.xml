@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="musica"
+        android:summary="@string/config_music_sumary"
+        android:title="@string/config_music_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sensor"
+        android:summary="@string/config_sensor_sumary"
+        android:title="@string/config_sensor_title" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tiposGraficos"
+        android:entryValues="@array/tiposGraficosValores"
+        android:key="graficos"
+        android:summary="@string/config_graph_sumary"
+        android:title="@string/config_graph_title" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="fragmentos"
+        android:summary="@string/config_frag_sumary"
+        android:title="@string/config_frag_title" />
+    
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="asteroides"
+        android:summary="@string/config_aster_sumary"
+        android:title="@string/config_aster_title" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/tiposPuntuaciones"
+        android:entryValues="@array/tiposPuntuacionesValores"
+        android:key="puntuaciones"
+        android:summary="@string/config_scores_sumary"
+        android:title="@string/config_scores_title" />
+
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="numPuntuaciones"
+        android:summary="@string/config_num_score_sumary"
+        android:title="@string/config_num_score_title" />
+</PreferenceScreen>

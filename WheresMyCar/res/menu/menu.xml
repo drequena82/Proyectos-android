@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/myCarIsWhere"
+        android:icon="@drawable/map_icon"
+        android:titleCondensed="@string/overlay_title_mycar">
+    </item>
+    <item
+        android:id="@+id/itemAcerca"
+        android:icon="@drawable/info"
+        android:titleCondensed="@string/label_item_acerca_de">
+    </item>
+    <item
+        android:id="@+id/itemSalir"
+        android:icon="@drawable/exit"
+        android:titleCondensed="@string/label_item_salir">
+    </item>
+
+</menu>

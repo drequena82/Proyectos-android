@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/save" 
+	android:titleCondensed="@string/label_save"
+	android:icon="@drawable/save"
+	></item>
+	<item android:id="@+id/about" 
+	android:titleCondensed="@string/label_about"
+	android:icon="@drawable/info"
+	></item>
+	<item android:id="@+id/status" 
+	android:titleCondensed="@string/label_status"
+	android:icon="@drawable/battery"
+	></item>
+	<item android:id="@+id/loadMP3" 
+	android:titleCondensed="@string/label_loadMP3"
+	android:icon="@drawable/loadmp3"
+	></item>
+	<item android:id="@+id/exit" 
+	android:titleCondensed="@string/label_exit"
+	android:icon="@drawable/exit"
+	></item>
+</menu>

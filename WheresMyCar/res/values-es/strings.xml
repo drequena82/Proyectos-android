@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheresMyCar</string>
+    <string name="label_item_configurar">Configurar</string>
+	<string name="label_item_acerca_de">Acerca de WheresMyCar</string>
+	<string name="label_item_salir">Salir</string>
+	
+	<string name="overlay_title_mycar">Mi coche está aqui</string>
+	<string name="overlay_title_me">Estoy aqui</string>
+	<string name="overlay_text_mycar">Mi coche está aparcado aquí</string>
+	<string name="label_acerca">Aplicación desarrollada por David Requena</string>
+	<string name="error_gps">Señal de GPS no encontrada</string>
+	<string name="label_metros">metros</string>
+	
+	<string name="notification_ticker">WheresMyCar arrancando!!</string>
+	<string name="notification_title">WheresMyCar</string>
+	<string name="notification_text">Toca para ver donde está tu coche</string>	
+	
+	<string name="incoming_alert_title">Bienvenido a WheresMyCar</string>
+	<string name="incoming_alert_text">Seleccione la opción para marcar la posicion del coche sobre su posición</string>
+	<string name="ok_button">Aceptar</string>
+	<string name="exit_button">Salir</string>
+	<string name="label_enabled_gps">Es necesario activar el GPS,desea hacerlo?</string>
+	
+	<string name="text_image">Lugar de mi coche</string>
+	<string name="label_take_photo">¿Quieres tomar una foto?</string>
+	
+	<string name="label_picture_error">La imagen no ha sido tomada</string>
+</resources>

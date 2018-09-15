@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TextoAsteroides"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/textView_label"
+        style="@style/TextoAsteroides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/main_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_play"
+            style="@style/TextoAsteroides.Botones"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:onClick="lanzarJuego"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/button_configure"
+            style="@style/TextoAsteroides.Botones"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:onClick="lanzarConfig"
+            android:text="@string/configure" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_puntuaciones"
+            style="@style/TextoAsteroides.Botones"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:onClick="lanzarPuntuaciones"
+            android:text="@string/scores" />
+
+        <Button
+            android:id="@+id/button_about"
+            style="@style/TextoAsteroides.Botones"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:onClick="lanzarAcercaDe"
+            android:text="@string/about" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_exit"
+        style="@style/TextoAsteroides.Botones"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:onClick="salir"
+        android:text="@string/exit" />
+
+</LinearLayout>

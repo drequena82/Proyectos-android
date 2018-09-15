@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asteroids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="main_label">Asteroids</string>
+    <string name="play">Play</string>
+    <string name="configure">Configure</string>
+    <string name="about">About to</string>
+    <string name="exit">Exit</string>
+    <string name="scores">Score</string>
+    <string name="text_about">Game developed by David Requena for a Basic Android course</string>
+    <string name="config_music_sumary">Play background music</string>
+    <string name="config_music_title">Play music</string>
+    <string name="config_sensor_sumary">Can use inclination sensors</string>
+    <string name="config_sensor_title">Use sensor</string>
+    <string name="config_graph_sumary">Graphs representation</string>
+    <string name="config_graph_title">Graphs</string>
+    <string name="config_frag_sumary">How many fragments can asteroids divides</string>
+    <string name="config_frag_title">Number of fragments</string>
+    <string name="config_aster_sumary">How many asteroids can destroy</string>
+    <string name="config_aster_title">Number of asteroids</string>
+    <string name="config_scores_sumary">Type of scores saving</string>
+    <string name="config_scores_title">Select a type of source</string>
+    <string name="list_scores_title">Scores</string>
+    <string name="list_scores_no_score">No score</string>
+    <string name="list_scores_ranking">Ranking Nº </string>
+    <string name="exit_label">Do you want exit?</string>
+    <string name="label_game_score">Score:</string>
+    <string name="game_score">000000</string>
+    <string name="title_activity_juego">Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_abandonar"> Do you want exit?</string>
+    <string name="notification_label">Asteroids running</string>
+    <string name="title_activity_resumen_puntuacion">ResumenPuntuacion</string>
+    <string name="puntuacion_label">Your score is: </string>
+    <string name="label_no_sd">Not exist SD Card.\nScores in intenal file</string>
+    <string name="label_sd_no_read">Is not possible read in SD Card.\nScores in intenal file</string>
+    <string name="config_num_score_sumary">Number of scores to save</string>
+    <string name="config_num_score_title">Number of scores</string>
+    <string name="label_waiting_server">Waiting server\nresponse</string>
+
+</resources>

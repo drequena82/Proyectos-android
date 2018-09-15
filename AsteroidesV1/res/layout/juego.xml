@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/sensorX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_game_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/sensorY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_game_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/sensorZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_game_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/label_puntuacion_juego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_game_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/puntuacion_juego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_score"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <org.example.asteroides.views.VistaJuego
+        android:id="@+id/VistaJuego"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true" />
+
+</LinearLayout>

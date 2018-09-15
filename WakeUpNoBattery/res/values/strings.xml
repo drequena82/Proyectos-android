@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="label_options">Configuration Options</string>
+	<string name="about">App developed by David Requena Carrión</string>
+	<string name="title">Options</string>
+	<string name="app_name">Wake Up No Battery</string>
+	<string name="label_tone">Advice tone </string>
+	<string name="label_option_tone">Advice tone </string>
+	<string name="label_interval">Advice interval </string>
+	<string name="label_option_volume">Volume </string>
+	<string name="label_option_interval">Advice interval time </string>
+	<string name="label_battery_level">Minimal battery level </string>
+	<string name="label_option_battery_level">Minimal battery level </string>
+	<string name="label_minutes">minutes </string>
+	<string name="label_save">Save Options </string>
+	<string name="label_about">About ... </string>
+	<string name="label_exit">Exit </string>
+	<string name="notification_title">Wake up, no battery!! </string>
+	<string name="notification_text">Select to modify options </string>
+	<string name="notification_ticker">Starting Wake up, no battery!! </string>
+	<string name="toast_message">Stop Wake up, no battery!! </string>
+	<string name="button_message">Select tone </string>
+	<string name="toast_state_battery">Actual state battery: </string>
+	<string name="advice_text">Battery State is under  </string>
+	<string name="advice_text2">Actual battery state:  </string>
+	<string name="label_saved">Options saved  </string>
+	<string name="ok_button">Accept</string>
+	<string name="custom_toast_label">Update options:\n</string>
+	<string name="silent">Silent</string>
+	<string name="vibrate">Vibrate</string>
+	<string name="label_checkbattery">Battery status: </string>
+	<string name="label_status">Check battery status </string>
+	<string name="label_loadMP3">Load MP3 </string>
+	<string name="label_explorerMessage">Load this file: </string>
+	<string name="cancel_button">Cancel</string>
+	<string name="play_button">Play/Stop</string>
+	<string name="stop_button">Stop</string>
+</resources>

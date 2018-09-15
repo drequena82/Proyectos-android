@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/puntuacion_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_abandonar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="10dp" 
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/b_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yes_button"
+                android:onClick="yesPressed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0.51"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/b_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/no_button"
+                android:onClick="noPressed" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

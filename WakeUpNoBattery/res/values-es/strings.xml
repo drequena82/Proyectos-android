@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_options">Opciones de configuración</string>
+    <string name="about">App desarrollada por David Requena Carrión</string>
+    <string name="app_name">Wake Up No Battery</string>
+    <string name="label_tone">Timbre de aviso </string>
+    <string name="label_option_tone">Timbre de aviso </string>
+    <string name="label_interval">Tiempo de intervalo del aviso </string>
+    <string name="label_option_interval">Tiempo de intervalo del aviso </string>
+    <string name="label_battery_level">Nivel mínimo de la bateria </string>
+    <string name="label_option_battery_level">Nivel mínimo de la bateria </string>
+    <string name="label_option_volume">Volumen </string>
+    <string name="label_minutes">minutos </string>
+    <string name="label_save">Guardar Opciones </string>
+    <string name="label_about">Acerca de ... </string>
+    <string name="label_exit">Salir </string>
+    <string name="notification_title">Wake up, no battery!! </string>
+    <string name="notification_text">Seleccione para modificar las opciones </string>
+    <string name="notification_ticker">Arrancando Wake up, no battery!! </string>
+    <string name="toast_message">Wake up, no battery!! detenido</string>
+    <string name="button_message">Seleccionar timbre </string>
+    <string name="toast_state_battery">Estado actual de la batería: </string>
+    <string name="advice_text">El estado de la batería está por debajo de  </string>
+    <string name="advice_text2">Estado actual de la bateria:  </string>
+    <string name="label_saved">Opciones guardadas  </string>
+    <string name="ok_button">Aceptar</string>
+    <string name="custom_toast_label">Opciones actualizadas:\n</string>
+    <string name="silent">Silencio</string>
+	<string name="vibrate">Vibración</string>
+	<string name="label_checkbattery">Nivel de batería: </string>
+	<string name="label_status">Comprobar batería </string>
+	<string name="label_loadMP3">Cargar MP3 </string>
+	<string name="label_explorerMessage">¿Desea cargar este archivo: </string>
+	<string name="cancel_button">Cancelar</string>
+	<string name="play_button">Reproducir/Parar</string>
+	<string name="stop_button">Parar</string>
+</resources>
